@@ -1,0 +1,7 @@
+const DATABASE_MODULE = "DATABASE_MODULE";
+const INTERVAL = 3;
+
+export default {
+  DATABASE_MODULE,
+  INTERVAL
+};

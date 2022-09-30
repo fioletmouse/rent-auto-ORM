@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  rent_postgres:
+    container_name: rent-auto
+    build:
+      context: .
+    environment:
+      - POSTGRES_USER=eakulenko
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_DB=booking
+    ports:
+      - 5432:5432
